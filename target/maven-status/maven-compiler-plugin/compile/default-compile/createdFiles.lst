@@ -1,0 +1,6 @@
+pageObject\ForgotPassword.class
+resources\Base.class
+pageObject\LandingPage.class
+resources\ExtentReportNG.class
+Academy\App.class
+pageObject\LoginPage.class
