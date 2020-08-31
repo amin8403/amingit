@@ -1,23 +1,23 @@
 package Academy;
 
+import org.testng.annotations.Test;
 
 public class App 
 {
-    public static void main( String[] args )
+   @Test
+   public void Automation()
     {
         System.out.println( "Hello World!" );
-        System.out.println( "Hi!" );
-        System.out.println( "Amin" );
-        System.out.println( "Hussain!" );
-        System.out.println( "Sahid!" ); 
-        System.out.println( "Waris!" );
-        
-        System.out.println( "Hello World!a" );
-        System.out.println( "Hib!" );
-        System.out.println( "Aminc" );
-        System.out.println( "Hussaind!" );
-        System.out.println( "Sahide!" ); 
-        System.out.println( "Warisf!" );
-
+        System.out.println("Hi");
     }
+   @Test
+   public void Appium()
+    {
+        System.out.println( "Mobile testing!" );
+        System.out.println("cell phone software testing");
+    }
+   @Test
+   public void RestAPI(){
+	   System.out.println("API is running");
+   }
 }
