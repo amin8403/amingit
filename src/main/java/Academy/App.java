@@ -20,4 +20,8 @@ public class App
    public void RestAPI(){
 	   System.out.println("API is running");
    }
+   @Test
+   public void Selenium(){
+	   System.out.println("Selenium is up and running");
+   }
 }
